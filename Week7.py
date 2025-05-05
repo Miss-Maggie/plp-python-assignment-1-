@@ -19,17 +19,20 @@ print("\n📚 Average Score and Attendance by Subject:\n")
 print(df.groupby('Subject')[['Score', 'Attendance %']].mean().reset_index())
 
 # Task 3: Data Visualization
+import pandas as pd;
+df = pd.read_csv(r"C:\Users\IGNATIUS MAINGI\Desktop\Python Assignment\student_data.csv")
+print(df.columns)
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 1. Line Chart: Score Trend Across Students (simulating time with StudentID)
-plt.figure(figsize=(8, 4))
-sns.lineplot(x='StudentID', y='Score', data=df, marker='o')
-plt.title("📈 Score Trend Across Students")
-plt.xlabel("StudentID")
-plt.ylabel("Score")
-plt.tight_layout()
-plt.show()
+# # 1. Line Chart: Score Trend Across Students (simulating time with StudentID)
+# plt.figure(figsize=(8, 4))
+# sns.lineplot(x='StudentID', y='Score', data=df, marker='o')
+# plt.title("📈 Score Trend Across StudentID")
+# plt.xlabel("StudentID")
+# plt.ylabel("Score")
+# plt.tight_layout()
+# plt.show()
 
 # 2. Bar Chart: Average Score by Subject
 plt.figure(figsize=(8, 4))

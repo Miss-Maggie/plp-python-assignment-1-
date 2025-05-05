@@ -1,0 +1,6 @@
+StudentID ,Name,Gender ,Grade ,Age,Subject,Score,Attendance %
+1,Alice Smith ,F,10,15,Math,88,95
+2,Brian Jones,M,10,16,Science ,76,88
+3,Clara Brown ,F,11,16,Math,92,98
+4,David Clark,M,12,17,History,65,75
+5,Ella Johnson ,F,11,16,English,79,85
